@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width initial-scale=1.0 user-scalable=no"
+    />
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="sudoku.css" />
+  </head>
+
+  <body>
+    <h1>Sudoku</h1>
+    <hr />
+    <h2 id="errors">0</h2>
+
+    <!-- 9x9 board -->
+    <div id="board"></div>
+    <br />
+    <div id="digits"></div>
+    <div class="buttons">
+      <button class="dfs">Solve With DFS</button>
+      <button class="bfs">Solve With BFS</button>
+      <button class="ids">Solve With IDS</button>
+      <button class="a-star">Solve With A<sup>*</sup></button>
+    </div>
+    <script src="sudoku.js"></script>
+  </body>
+</html>
